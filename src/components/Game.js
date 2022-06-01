@@ -12,7 +12,6 @@ var Game = () => {
     const { id } = useParams();
     const [game, setGame] = useState({});
     const [summary, setSummary] = useState(false);
-    const [txtButton, setTxtButton] = useState("Summary");
 
     useEffect(() => {
         API.get('/game/'+id)

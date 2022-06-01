@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Grid, LinearProgress, Typography} from "@mui/material";
 import Box from "@mui/material/Box";
 import Answer from "./Answer";
