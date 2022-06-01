@@ -15,7 +15,7 @@ var Question = ({ round, callback }) => {
 
         return () => clearInterval(interval);
 
-    }, [])
+    }, [round.start_time])
 
     return (
         <Box mb={2}>

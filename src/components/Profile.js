@@ -44,7 +44,7 @@ function Profile(){
             })
             .catch((e) => console.log(e));
 
-    },[id, setUser, setHistory])
+    },[id, setUser, setHistory, userContext.user])
 
     return (
         <Box>
