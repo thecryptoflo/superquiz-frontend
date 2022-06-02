@@ -5,7 +5,6 @@ export default axios.create({
     responseType: "json",
     withCredentials: true,
     headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/x-www-form-urlencoded"
     }
 });
